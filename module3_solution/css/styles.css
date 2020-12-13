@@ -1,0 +1,35 @@
+#main-list{
+  background-color: #669999;
+  font-size: 2em;
+  text-align: center;
+}
+#main-list li>a{
+  color:#ff0000;
+}
+#main-navbar{
+  background-color: #c2c2a3;
+}
+
+#main-list li>a:hover{
+  color:#ffff;
+}
+#main-content section{
+  background-color: #8a8a5c;
+  padding: 15px;
+  height: auto;
+
+}
+#meal-title{
+  font-size: 1.6em;
+  font-weight: bold;
+}
+section .single-meal-details{
+   font: italic 1.2em saris;
+}
+@media(max-width:768px){
+    #main-content section{
+    padding: 50px;
+
+    }
+
+}
