@@ -5,8 +5,9 @@
 }
 #main-list li>a{
   color:#ff0000;
+  scroll-behavior: smooth;
 }
-#main-navbar{
+#main-navb
   background-color: #c2c2a3;
 }
 
@@ -17,7 +18,7 @@
   background-color: #8a8a5c;
   padding: 15px;
   height: auto;
-
+  margin-bottom: 10px;
 }
 #meal-title{
   font-size: 1.6em;
@@ -29,6 +30,7 @@ section .single-meal-details{
 @media(max-width:768px){
     #main-content section{
     padding: 50px;
+    
 
     }
 
