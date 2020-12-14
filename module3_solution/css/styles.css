@@ -7,30 +7,40 @@
   color:#ff0000;
   scroll-behavior: smooth;
 }
-#main-navb
-  background-color: #c2c2a3;
+#main-navbar{
+  background-color: #adad85;
 }
 
 #main-list li>a:hover{
   color:#ffff;
 }
-#main-content section{
-  background-color: #8a8a5c;
-  padding: 15px;
-  height: auto;
-  margin-bottom: 10px;
+#main-content div{
+
+
 }
+
 #meal-title{
   font-size: 1.6em;
   font-weight: bold;
 }
 section .single-meal-details{
-   font: italic 1.2em saris;
+   font: italic 1em serif;
+}
+div a{
+  text-decoration: none;
+  font:italic serif;
+
+}
+
+#meal{
+  margin: 5px;
+    background-color: #8a8a5c;
+    padding: 10px;
 }
 @media(max-width:768px){
     #main-content section{
     padding: 50px;
-    
+
 
     }
 
